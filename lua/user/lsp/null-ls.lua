@@ -16,7 +16,10 @@ null_ls.setup({
 		formatting.stylua,
 		formatting.gofmt,
 		formatting.goimports,
-		-- diagnostics.flake8
+		formatting.rubocop,
+		formatting.standardrb,
+		-- diagnostics.flake8,
 		diagnostics.golangci_lint,
+		diagnostics.rubocop,
 	},
 })
