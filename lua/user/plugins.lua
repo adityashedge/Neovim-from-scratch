@@ -97,6 +97,7 @@ return packer.startup(function(use)
   -- Additional language specific plugins
   use "fatih/vim-go"
   use "ngmy/vim-rubocop"
+  use "ThePrimeagen/refactoring.nvim"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
